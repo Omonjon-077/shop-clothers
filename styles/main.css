@@ -526,6 +526,7 @@ body {
     font-size: 13px;
     text-decoration: none;
     color: #222;
+    transition: .4s all ease-out;
     margin-bottom: 10px;
 }
 
@@ -546,6 +547,12 @@ body {
 .footer .follow .icons i {
     color: #465b52;
     font-size: 20px;
+    transition: .4s all ease-out;
+}
+
+.footer .follow .icons i:hover,
+.footer .col a:hover {
+    color: #088178;
 }
 
 .footer .install .row a i {
