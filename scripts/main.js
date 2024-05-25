@@ -14,3 +14,14 @@ if (close) {
         nav.classList.remove('active');
     });
 }
+
+if ($('.main-img').length) {
+    let mainImg = document.querySelector('.main-img'),
+        smallImg = document.querySelectorAll('.small-img');
+
+    smallImg.forEach(img => {
+        img.addEventListener('click', () => {
+            mainImg.src = img.src;
+        })
+    });
+};
