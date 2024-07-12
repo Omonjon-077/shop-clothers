@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--======================= Site Description =======================-->
+    <meta name="description" content="Welcome to our Cara online clothes store!">
+
+    <!--======================= Site Favicon =======================-->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+
+    <!--======================= Site Icons =======================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--======================= CSS Files =======================-->
+    <link rel="stylesheet" href="../scripts/main.js?v=0.5">
+    <link rel="stylesheet" href="../styles/breakpoints.css?v=0.5">
+
+    <!--======================= Site Title =======================-->
+    <title>Cara | Cart page</title>
+
+</head>
+<body>
+
+<!--======================= Header =======================-->
+<header id="header" class="header">
+    <a href="../index.html" class="logo"><img src="../img/logo.png" alt=""></a>
+    <div class="">
+        <ul class="navbar">
+            <a href="#" class="close"><i class='bx bx-x bx-sm'></i></a>
+            <li><a class="" href="../index.html">Home</a></li>
+            <li><a class="" href="./shop.html">Shop</a></li>
+            <li><a class="" href="./blog.html">Blog</a></li>
+            <li><a class="" href="./about.html">About</a></li>
+            <li><a class="" href="./contact.html">Contact</a></li>
+            <li><a class="bag active" href="#"><i class="uil uil-shopping-bag"></i></a></li>
+        </ul>
+    </div>
+    <div class="mobile">
+        <a class="" href="./cart.html"><i class="uil uil-shopping-bag"></i></a>
+        <a href="#" class="bar"><i class="uil uil-list-ul"></i></a>
+    </div>
+</header>
+
+<!--======================= Main =======================-->
+<main>
+    <!--======================= Hero Section =======================-->
+    <section class="shop-hero about-hero" id="hero">
+        <h2>Check your products</h2>
+        <p>Thank you for shopping at our online store</p>
+    </section>
+
+    <!--======================= Cart Section =======================-->
+    <section class="cart section-p1" id="cart">
+        <table width="100%">
+            <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th><a href="#"><i class="uil uil-times-circle"></i></a></th>
+                <th><img src="../img/products/f1.jpg" alt=""></th>
+                <th>Cartoon Astronaut T-Shirts</th>
+                <th>$118.19</th>
+                <th>
+                    <span style="display: flex; align-items: center;justify-content: center;column-gap: 12px">
+                          <a href="#"><i class="uil uil-minus-circle"></i></a>
+                          <span style="margin: 0;">1</span>
+                          <a href="#"><i class="uil uil-plus-circle"></i></a>
+                    </span>
+                </th>
+                <th>$118.19</th>
+            </tr>
+            <tr>
+                <th><a href="#"><i class="uil uil-times-circle"></i></a></th>
+                <th><img src="../img/products/f2.jpg" alt=""></th>
+                <th>Cartoon Astronaut T-Shirts</th>
+                <th>$118.19</th>
+                <th>
+                    <span style="display: flex; align-items: center;justify-content: center;column-gap: 12px">
+                          <a href="#"><i class="uil uil-minus-circle"></i></a>
+                          <span style="margin: 0;">1</span>
+                          <a href="#"><i class="uil uil-plus-circle"></i></a>
+                    </span>
+                </th>
+                <th>$118.19</th>
+            </tr>
+            <tr>
+                <th><a href="#"><i class="uil uil-times-circle"></i></a></th>
+                <th><img src="../img/products/f3.jpg" alt=""></th>
+                <th>Cartoon Astronaut T-Shirts</th>
+                <th>$118.19</th>
+                <th>
+                    <span style="display: flex; align-items: center;justify-content: center;column-gap: 12px">
+                          <a href="#"><i class="uil uil-minus-circle"></i></a>
+                          <span style="margin: 0;">1</span>
+                          <a href="#"><i class="uil uil-plus-circle"></i></a>
+                    </span>
+                </th>
+                <th>$118.19</th>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!--======================= Pay Section =======================-->
+    <section id="cart-pay" class="cart-pay section-p1">
+        <div class="coupon" id="coupon">
+            <h3>Apply Coupon</h3>
+            <form class="" action="">
+                <input type="text" placeholder="Enter Your Coupon..." required>
+                <button type="submit" class="normal">Apply</button>
+            </form>
+        </div>
+        <div class="subtotal" id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <thead>
+                <tr>
+                    <td>Card Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+                </thead>
+            </table>
+            <button type="button" class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+</main>
+
+<!--======================= Footer =======================-->
+<footer class="footer section-p1">
+    <div class="col">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="" class=""></a>
+        <h4>Contact</h4>
+        <p><strong>Adress:</strong> 562 Wellingtion Road, Street 32, San Francisco</p>
+        <a style="color: #465b52" href="tel:+998977777777"><strong>Phone:</strong> +998 97 777 77 77</a>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-pinterest'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Cunditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+        <h4>My account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    <div class="col install">
+        <h4>Intall App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <a href=""><i class='bx bxl-apple'></i></a>
+            <a href=""><i class='bx bxl-play-store'></i></a>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="../img/pay/pay.png" alt="">
+    </div>
+    <div class="copyright">
+        <p>© by <a href="https://omonjon.triger.uz/">Omonjon Sobirov.</a> All rigths reserved 2024</p>
+    </div>
+</footer>
+
+<!--======================= JS Files =======================-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../scripts/main.js?v=0.3"></script>
+</body>
+</html>

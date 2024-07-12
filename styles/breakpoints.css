@@ -1,0 +1,255 @@
+@media (max-width: 799px) {
+    .section-p1 {
+        padding: 40px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 175px;
+        height: 100%;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, .1);
+        padding: 80px 0 0 10px;
+        transition: .4s all;
+    }
+
+    .navbar.active {
+        right: 0;
+    }
+
+    .navbar li {
+        margin-bottom: 25px;
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    .mobile a i {
+        color: #1a1a1a;
+        font-size: 24px;
+    }
+
+    .close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+    }
+
+    .bag {
+        display: none;
+    }
+
+    .hero {
+        height: 70vh;
+        background-position: top 30% right 30%;
+    }
+
+    .feature {
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .products .pro-container {
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .banner {
+        height: 20vh;
+    }
+
+    .sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        background-position: top;
+    }
+
+    .xs-banner {
+        padding: 40px;
+    }
+
+    .xs-banner .banner-box {
+        padding: 0 30px;
+        width: 28%;
+    }
+
+    .newsletter .form {
+        width: 70%;
+    }
+
+    .blog {
+        padding: 120px 80px 50px 80px;
+    }
+
+    .about-head {
+        flex-direction: column;
+    }
+
+    .about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-head div {
+        padding-left: 0;
+    }
+
+    .about-app .video {
+        width: 100%;
+    }
+
+    .form-details {
+        padding: 40px;
+    }
+
+    .form-details {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+
+    .form-details form {
+        width: 100%;
+    }
+
+    .form-details .people {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .contact-details .details {
+        width: 100%;
+    }
+
+    .contact-details .map {
+        width: 100%;
+    }
+
+    .cart-pay {
+        flex-direction: column;
+    }
+
+    .cart-pay .coupon,
+    .cart-pay .subtotal {
+        width: 100%;
+    }
+
+    .cart-pay .coupon form {
+        display: flex;
+    }
+
+    .cart-pay .coupon form input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+
+    .header {
+        padding: 10px 30px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    .feature .fe-box {
+        width: 155px;
+    }
+
+    .products .pro {
+        width: 100%;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    .xs-banner {
+        padding: 0 20px;
+    }
+
+    .xs-banner .banner-box {
+        width: 100%;
+    }
+
+    .newsletter {
+        padding: 40px 20px;
+    }
+
+    .newsletter .form {
+        width: 100%;
+    }
+
+    .footer .copyright {
+        text-align: start;
+    }
+
+    .prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    .blog {
+        padding: 100px 20px 30px 20px;
+    }
+
+    .blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .blog .blog-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .blog .blog-details {
+        width: 100%;
+    }
+}
