@@ -82,6 +82,34 @@ const products = [
         name: 'Cartoon Astronaut T-shirts',
         price: 26,
         img: "img/products/n4.jpg"
+    } ,
+    {
+        id: 13,
+        company: 'Gucci',
+        name: 'Cartoon Astronaut T-shirts',
+        price: 35,
+        img: "img/products/n5.jpg"
+    },
+    {
+        id: 14,
+        company: 'Gucci',
+        name: 'Cartoon Astronaut T-shirts',
+        price: 13,
+        img: "img/products/n6.jpg"
+    } ,
+    {
+        id: 15,
+        company: 'Gucci',
+        name: 'Cartoon Astronaut T-shirts',
+        price: 12,
+        img: "img/products/n7.jpg"
+    } ,
+    {
+        id: 16,
+        company: 'Gucci',
+        name: 'Cartoon Astronaut T-shirts',
+        price: 17,
+        img: "img/products/n8.jpg"
     }
 ];
 export default products;

@@ -60,6 +60,12 @@ p {
     margin: 40px 0;
 }
 
+button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
 button.normal {
     font-size: 14px;
     font-weight: 600;
@@ -113,6 +119,25 @@ body {
     align-items: center;
     justify-content: center;
     list-style: none;
+}
+
+.navbar .bag .result-num {
+    position: relative;
+}
+
+.navbar .bag .result-num {
+    position: absolute;
+    top: -8px;
+    left: 11px;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    color: white;
 }
 
 .navbar li {

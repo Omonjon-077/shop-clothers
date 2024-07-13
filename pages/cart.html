@@ -17,14 +17,14 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!--======================= CSS Files =======================-->
-    <link rel="stylesheet" href="../scripts/main.js?v=0.5">
+    <link rel="stylesheet" href="../styles/main.css?v=0.5">
     <link rel="stylesheet" href="../styles/breakpoints.css?v=0.5">
 
     <!--======================= Site Title =======================-->
     <title>Cara | Cart page</title>
 
 </head>
-<body>
+<body class="cart-page">
 
 <!--======================= Header =======================-->
 <header id="header" class="header">
@@ -37,7 +37,8 @@
             <li><a class="" href="./blog.html">Blog</a></li>
             <li><a class="" href="./about.html">About</a></li>
             <li><a class="" href="./contact.html">Contact</a></li>
-            <li><a class="bag active" href="#"><i class="uil uil-shopping-bag"></i></a></li>
+            <li><a class="bag active" href="#"><i class="uil uil-shopping-bag"></i><span
+                    class="result-num">0</span></a></li>
         </ul>
     </div>
     <div class="mobile">
@@ -69,43 +70,43 @@
             </thead>
             <tbody>
             <tr>
-                <th><a href="#"><i class="uil uil-times-circle"></i></a></th>
+                <th><button type="button"><i class="uil uil-times-circle"></i></button></th>
                 <th><img src="../img/products/f1.jpg" alt=""></th>
                 <th>Cartoon Astronaut T-Shirts</th>
                 <th>$118.19</th>
                 <th>
                     <span style="display: flex; align-items: center;justify-content: center;column-gap: 12px">
-                          <a href="#"><i class="uil uil-minus-circle"></i></a>
-                          <span style="margin: 0;">1</span>
-                          <a href="#"><i class="uil uil-plus-circle"></i></a>
+                          <button data-action="minus" type="button"><i class="uil uil-minus-circle"></i></button>
+                          <span data-counter style="margin: 0;">1</span>
+                          <button data-action="plus" type="button"><i class="uil uil-plus-circle"></i></button>
                     </span>
                 </th>
                 <th>$118.19</th>
             </tr>
             <tr>
-                <th><a href="#"><i class="uil uil-times-circle"></i></a></th>
+                <th><button type="button"><i class="uil uil-times-circle"></i></button></th>
                 <th><img src="../img/products/f2.jpg" alt=""></th>
                 <th>Cartoon Astronaut T-Shirts</th>
                 <th>$118.19</th>
                 <th>
                     <span style="display: flex; align-items: center;justify-content: center;column-gap: 12px">
-                          <a href="#"><i class="uil uil-minus-circle"></i></a>
-                          <span style="margin: 0;">1</span>
-                          <a href="#"><i class="uil uil-plus-circle"></i></a>
+                          <button data-action="minus" type="button"><i class="uil uil-minus-circle"></i></button>
+                          <span data-counter style="margin: 0;">1</span>
+                          <button data-action="plus" type="button"><i class="uil uil-plus-circle"></i></button>
                     </span>
                 </th>
                 <th>$118.19</th>
             </tr>
             <tr>
-                <th><a href="#"><i class="uil uil-times-circle"></i></a></th>
+                <th><button type="button"><i class="uil uil-times-circle"></i></button></th>
                 <th><img src="../img/products/f3.jpg" alt=""></th>
                 <th>Cartoon Astronaut T-Shirts</th>
                 <th>$118.19</th>
                 <th>
                     <span style="display: flex; align-items: center;justify-content: center;column-gap: 12px">
-                          <a href="#"><i class="uil uil-minus-circle"></i></a>
-                          <span style="margin: 0;">1</span>
-                          <a href="#"><i class="uil uil-plus-circle"></i></a>
+                          <button data-action="minus" type="button"><i class="uil uil-minus-circle"></i></button>
+                          <span data-counter style="margin: 0;">1</span>
+                          <button data-action="plus" type="button"><i class="uil uil-plus-circle"></i></button>
                     </span>
                 </th>
                 <th>$118.19</th>
@@ -198,6 +199,7 @@
 
 <!--======================= JS Files =======================-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="../scripts/main.js?v=0.3"></script>
+<script src="../scripts/cartCalculator.js?v=0.1" type="module"></script>
+<script src="../scripts/main.js?v=0.4" type="module"></script>
 </body>
 </html>
