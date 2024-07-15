@@ -1,15 +1,19 @@
-const btnMinus = document.querySelector('[data-action="minus"]'),
-      btnPlus = document.querySelector('[data-action="plus"]'),
-      counter = document.querySelector('[data-counter]');
+const counter = document.querySelector('[data-counter]');
 
-btnMinus.addEventListener('click', () => {
-    if (parseInt(counter.innerText) > 1) {
-        counter.innerText = --counter.innerText;
+
+window.addEventListener('click', (ev) => {
+    if (ev.target.dataset.action === 'plus') {
+        let counterWrapper = ev.target.closest('.counter-wrap');
+        let counter = counterWrapper.querySelector('[data-counter]');
+        if (counter.innerText < 10) {
+            counter.innerText = ++counter.innerText;
+        }
     }
-});
-
-btnPlus.addEventListener('click', () => {
-    if (parseInt(counter.innerText) < 10) {
-        counter.innerText = ++counter.innerText;
+    if (ev.target.dataset.action === 'minus') {
+        let counterWrapper = ev.target.closest('.counter-wrap');
+        let counter = counterWrapper.querySelector('[data-counter]');
+        if (parseInt(counter.innerText) > 1) {
+            counter.innerText = --counter.innerText;
+        }
     }
 });
